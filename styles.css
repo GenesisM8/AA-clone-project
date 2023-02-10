@@ -208,7 +208,7 @@ img {
     font-family: '';
     color: #353640;
     line-height: 1;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 3.5rem;
     line-height: 1.1;
     margin-block-end: 0.67em;
@@ -247,6 +247,12 @@ img {
 
 }
 
+.learn-botton:hover{
+    background-color: #d0021b99;
+    border: 2px solid #d0021b99;
+    border-radius: 3px;
+}
+
 .talk-botton {
     display: flex;
     margin-right: 12px;
@@ -259,7 +265,10 @@ img {
     font-weight: 500;
     cursor: pointer;
 }
-
+.talk-botton:hover{
+    background-color: #d0021b;
+    color: #fff;
+}
 .section_home-10th {
     position: relative;
     display: block;
